@@ -31,4 +31,4 @@ mac:
 	$(CC) $(CFLAGS) $(SOURCE) $(MAC_INCLUDE) $(MAC_LIBS) $(MAC_64)
 
 clean:
-	rm -rf *.exe *.o
+	rm -rf *.exe *.o darwin64_game
